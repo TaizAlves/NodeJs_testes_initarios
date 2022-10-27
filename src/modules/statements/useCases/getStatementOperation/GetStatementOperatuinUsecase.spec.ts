@@ -52,7 +52,7 @@ describe("Get statement Operation", () => {
             statement_id: withdraw.id as string,
         })
 
-        //console.log(statement)
+        console.log(statement)
         expect(statement).toEqual(withdraw)
     });
 
